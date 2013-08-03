@@ -66,7 +66,13 @@ var GameScene = cc.Scene.extend({
         var audioEngine = cc.AudioEngine.getInstance();
         audioEngine.playMusic(s_mp3_Level, true);
 
+        this.gameStatus = g_GameStatus.normal;
+
         this.wave = 0;
+        this.towerBaseList = [];
+        this.towersList = [];
+        this.waypointsList = [];
+        this.enemiesList = [];
 
         this.gameLayer = cc.Layer.create();
         this.addChild(this.gameLayer);
@@ -98,6 +104,24 @@ var GameScene = cc.Scene.extend({
         this.gameLayer.addChild(this.ui_gold_lbl, g_GameZOder.ui);
         this.ui_gold_lbl.setPosition(cc.p(135, this.winSize.height - 12));
         this.ui_gold_lbl.setAnchorPoint(cc.p(0, 0.5));
+    },
+
+    resetData: function()
+    {
+        this.wave = 0;
+        this.gameEnded = false;
+        this.playerHp = 5;
+        this.playerGold = 1000;
+
+        this.towersList = [];
+        this.enemiesList = [];
+
+        this.ui_hp_lbl.setString("HP: 0");
+        this.ui_gold_lbl.setString("GOLD: 0");
+        this.ui_wave_lbl.setString("Wave:: 0");
+
+        this.loadWave();
+
     },
 
     loadTowerPositions: function()
@@ -178,24 +202,30 @@ var GameScene = cc.Scene.extend({
             if (!this.loadWave())
             {
                 cc.log("You win!");
-                //CCDirector::sharedDirector()->replaceScene(CCTransitionSplitCols::create(1, HelloWorld::scene()));
+
+                // todo: update doesn't work, need fix
+                this.unschedule(this.update);
+                var director = cc.Director.getInstance();
+                director.replaceScene(cc.TransitionSplitCols.create(1, this));
+                //this.schedule(this.update, 0);
+                //this.overGame();
+                //this.startGame();
             }
         }
     },
 
-    startGame: function () {
-        //假如处于结束状态则先重置数据
-        if(this.gameStatus == g_GameStatus.gameOver){
-            //this.resetData();
+    startGame: function ()
+    {
+        if(this.gameStatus == g_GameStatus.gameOver)
+        {
+            this.resetData();
         }
-        //this.gameStatus = g_GameStatus.normal; //设置游戏状态为正常
-        //this.bear.beginRotate(); //开始旋转
-        //this.btnStart.setVisible(false);//隐藏开始按钮
+
+        this.gameStatus = g_GameStatus.normal;
     },
-    overGame:function(){
-        this.gameStatus = g_GameStatus.gameOver; //设置游戏状态为结束
-        //this.bear.stopRotate(); //开始旋转
-        //this.btnStart.setVisible(true);//显示开始按钮
+    overGame:function()
+    {
+        this.gameStatus = g_GameStatus.gameOver;
     },
 
     canBuyTower: function()
@@ -227,7 +257,7 @@ var GameScene = cc.Scene.extend({
         audioEngine.playEffect(s_wav_LifeLose);
 
         this.playerHp--;
-        this.ui_hp_lbl.setString("HP: ", this.playerHp);
+        this.ui_hp_lbl.setString("HP: " + this.playerHp);
         if (this.playerHp <= 0)
         {
             this.doGameOver();
@@ -236,11 +266,13 @@ var GameScene = cc.Scene.extend({
 
     doGameOver: function()
     {
-        if (!this.gameEnded)
-        {
-            this.gameEnded = true;
+        //if (!this.gameEnded)
+        //{
+        //    this.gameEnded = true;
            // CCDirector::sharedDirector()->replaceScene(CCTransitionRotoZoom::create(1, HelloWorld::scene()));
-        }
+        //}
+        this.overGame();
+        this.startGame();
     },
 
     awardGold: function(gold)
@@ -249,7 +281,23 @@ var GameScene = cc.Scene.extend({
         this.ui_gold_lbl.setString("GOLD: " + this.playerGold);
     },
 
-    update: function (dt) {
+    update: function (dt)
+    {
+        if (this.gameStatus != g_GameStatus.normal)
+        {
+            return;
+        }
 
+        for (var i = 0; i < this.towersList.length; i ++)
+        {
+            var tower = this.towersList[i];
+            tower.update(dt);
+        }
+
+        for (var i = 0; i < this.enemiesList.length; i ++)
+        {
+            var enemy = this.enemiesList[i];
+            enemy.update(dt);
+        }
     }
 });

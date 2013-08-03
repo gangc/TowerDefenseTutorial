@@ -45,7 +45,7 @@ var Enemy = cc.Node.extend({
         this.drawtool = cc.DrawNode.create();
         this.theGame.gameLayer.addChild(this.drawtool, g_GameZOder.ui );
 
-        this.scheduleUpdate();
+        //this.scheduleUpdate();
 
         return true;
     },
@@ -147,8 +147,7 @@ var Enemy = cc.Node.extend({
         cc.p(this.mySprite.getPosition().x - 10, this.mySprite.getPosition().y + 14)
         ];
 
-        //ccDrawSolidPoly(healthBarBack, 4, ccc4f(255, 0, 0, 255));
-        this.drawtool.drawPoly(healthBarBack, cc.c4f(255, 0, 0, 255), 1, cc.c4f(255, 0, 0, 255));
+        cc.drawingUtil.drawSolidPoly(healthBarBack,4, cc.c4f(255, 0, 0, 255));
 
         var healthBar = [
         cc.p(this.mySprite.getPosition().x + HEALTH_BAR_ORIGIN, this.mySprite.getPosition().y + 16),
@@ -157,8 +156,7 @@ var Enemy = cc.Node.extend({
         cc.p(this.mySprite.getPosition().x + HEALTH_BAR_ORIGIN, this.mySprite.getPosition().y + 14)
         ];
 
-        //ccDrawSolidPoly(healthBar, 4, ccc4f(0, 255, 0, 255));
-        this.drawtool.drawPoly(healthBar, cc.c4f(0, 255, 0, 255), 1, cc.c4f(0, 255, 0, 255));
+        cc.drawingUtil.drawSolidPoly(healthBar,  4, cc.c4f(0, 255, 0, 255));
 
         this._super ();
     }

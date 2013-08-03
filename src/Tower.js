@@ -33,7 +33,7 @@ var Tower = cc.Node.extend({
         this.theGame = game;
         this.theGame.gameLayer.addChild(this, g_GameZOder.ui);
 
-        this.scheduleUpdate();
+        //this.scheduleUpdate();
 
         return true;
     },
