@@ -45,7 +45,7 @@ var Enemy = cc.Node.extend({
         this.drawtool = cc.DrawNode.create();
         this.theGame.gameLayer.addChild(this.drawtool, g_GameZOder.ui );
 
-        //this.scheduleUpdate();
+        this.scheduleUpdate();
 
         return true;
     },

@@ -28,9 +28,10 @@ var GameScene = cc.Scene.extend({
         this._super();
 
         this.initData();
-        this.schedule(this.update, 0);
 
         cc.Director.getInstance().getTouchDispatcher().addTargetedDelegate(this, 0, true);
+
+        this.schedule(this.update, 0);
     },
 
     onTouchBegan:function (touch, event)
@@ -204,7 +205,8 @@ var GameScene = cc.Scene.extend({
                 cc.log("You win!");
 
                 // todo: update doesn't work, need fix
-                this.unschedule(this.update);
+                //this.unschedule(this.update);
+                this.removeAllChildren(true);
                 var director = cc.Director.getInstance();
                 director.replaceScene(cc.TransitionSplitCols.create(1, this));
                 //this.schedule(this.update, 0);
@@ -283,6 +285,7 @@ var GameScene = cc.Scene.extend({
 
     update: function (dt)
     {
+        /*
         if (this.gameStatus != g_GameStatus.normal)
         {
             return;
@@ -299,5 +302,6 @@ var GameScene = cc.Scene.extend({
             var enemy = this.enemiesList[i];
             enemy.update(dt);
         }
+        */
     }
 });

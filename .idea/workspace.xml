@@ -4,10 +4,7 @@
     <list default="true" id="6ab0570e-f156-4812-9835-0779b2acecd1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemy.js" afterPath="$PROJECT_DIR$/src/Enemy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameScene.js" afterPath="$PROJECT_DIR$/src/GameScene.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tower.js" afterPath="$PROJECT_DIR$/src/Tower.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowerDefenseTutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +15,7 @@
     <file path="/a.dart" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1374945720421" ignored="false" />
     <file path="/a.xml" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1374945725330" ignored="false" />
     <file path="/index.html" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1374977053521" ignored="false" />
-    <file path="/GameScene.js" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1375566700278" ignored="false" />
+    <file path="/GameScene.js" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1375583253061" ignored="false" />
     <file path="/cocos2d.js" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1375056575087" ignored="false" />
     <file path="/fragment.js" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1375230306733" ignored="false" />
     <file path="/Waypoint.js" changelist="6ab0570e-f156-4812-9835-0779b2acecd1" time="1375233812386" ignored="false" />
@@ -47,51 +44,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameScene.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameScene.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="54" selection-start="6526" selection-end="6526" vertical-scroll-proportion="0.0">
+            <state line="216" column="46" selection-start="6909" selection-end="6909" vertical-scroll-proportion="1.1356467">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="CCScene.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/layers_scenes_transitions_nodes/CCScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="239" selection-end="240" vertical-scroll-proportion="-4.0384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CCNode.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="http://localhost:8000/2.1.4/cocos2d/base_nodes/CCNode.js">
-          <provider selected="true" editor-type-id="httpFileEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCCommon.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="http://localhost:8000/2.1.4/cocos2d/platform/CCCommon.js">
-          <provider selected="true" editor-type-id="httpFileEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cocos2d.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cocos2d.js">
+        <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/base_nodes/CCNode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="22" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="909" column="4" selection-start="26722" selection-end="26750" vertical-scroll-proportion="-5.8461537">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
+      <file leaf-file-name="Tower.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tower.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="49" selection-start="1797" selection-end="1838" vertical-scroll-proportion="0.0">
+            <state line="104" column="0" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,34 +85,7 @@
       <file leaf-file-name="Enemy.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Enemy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="10" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tower.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tower.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="42" selection-start="2005" selection-end="2039" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Waypoint.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Waypoint.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resource.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resource.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="387" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="54" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,22 +109,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="localhost/~Gang/2.1.4/cocos2d/platform/CCFileUtils.js" />
-        <option value="localhost/~Gang/2.1.4/cocos2d/platform/CCSAXParser.js" />
-        <option value="localhost:8000/2.1.4/cocos2d/platform/CCClass.js" />
-        <option value="$PROJECT_DIR$/src/resource.js" />
-        <option value="$PROJECT_DIR$/cocos2d.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="localhost:8000/2.1.4/cocos2d/base_nodes/CCNode.js" />
         <option value="localhost:8000/2.1.4/cocos2d/touch_dispatcher/CCMouseDispatcher.js" />
         <option value="localhost:8000/2.1.4/cocos2d/cocoa/CCGeometry.js" />
         <option value="localhost:8000/2.1.4/cocos2d/CCDrawingPrimitives.js" />
         <option value="$PROJECT_DIR$/src/Waypoint.js" />
-        <option value="$PROJECT_DIR$/src/Tower.js" />
-        <option value="$PROJECT_DIR$/src/Enemy.js" />
         <option value="localhost:8000/2.1.4/cocos2d/platform/CCCommon.js" />
-        <option value="$PROJECT_DIR$/src/GameScene.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="localhost:8000/2.1.4/cocos2d/CCDirector.js" />
+        <option value="localhost:8000/2.1.4/cocos2d/touch_dispatcher/CCTouchDispatcher.js" />
+        <option value="localhost:8000/2.1.4/cocos2d/platform/CCClass.js" />
+        <option value="localhost:8000/2.1.4/cocos2d/layers_scenes_transitions_nodes/CCTransition.js" />
+        <option value="localhost:8000/2.1.4/cocos2d/CCScheduler.js" />
+        <option value="$PROJECT_DIR$/src/Enemy.js" />
+        <option value="$PROJECT_DIR$/src/Tower.js" />
+        <option value="$PROJECT_DIR$/src/GameScene.js" />
       </list>
     </option>
   </component>
@@ -230,6 +188,10 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos2d-html5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -238,6 +200,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TowerDefenseTutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefenseTutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefenseTutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,8 +331,8 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.67203516" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.53450805" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18486172" sideWeight="0.6989721" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36417034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18486172" sideWeight="0.50660795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49339208" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982105" sideWeight="0.2942899" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -431,82 +407,41 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../../2.1.4/cocos2d/CCScheduler.js</url>
+          <line>666</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/GameScene.js</url>
-          <line>30</line>
-          <option name="timeStamp" value="41" />
+          <line>183</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Enemy.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/GameScene.js</url>
+          <line>188</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Enemy.js</url>
+          <line>111</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="43" />
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="http://localhost:8000/2.1.4/cocos2d/cocoa/CCGeometry.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="http://localhost:8000/2.1.4/cocos2d/CCDrawingPrimitives.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/cocoa/CCGeometry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="354" column="20" selection-start="8500" selection-end="8517" vertical-scroll-proportion="0.7549296">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/Normal/Waves.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.015748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="387" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Waypoint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/CCDrawingPrimitives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="16" selection-start="6818" selection-end="6840" vertical-scroll-proportion="0.5263158">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/platform/CCApplication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="32" selection-start="6562" selection-end="6562" vertical-scroll-proportion="0.3753281">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="49" selection-start="1797" selection-end="1838" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tower.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="42" selection-start="2005" selection-end="2039" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -518,14 +453,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enemy.js">
+    <entry file="http://localhost:8000/2.1.4/cocos2d/platform/CCCommon.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/CCScheduler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+        <state line="658" column="73" selection-start="20388" selection-end="20413" vertical-scroll-proportion="-4.8461537">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:8000/2.1.4/cocos2d/platform/CCClass.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:8000/2.1.4/cocos2d/CCScheduler.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="http://localhost:8000/2.1.4/cocos2d/platform/CCCommon.js">
+    <entry file="http://localhost:8000/2.1.4/cocos2d/CCDirector.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:8000/2.1.4/cocos2d/touch_dispatcher/CCTouchDispatcher.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:8000/2.1.4/cocos2d/layers_scenes_transitions_nodes/CCTransition.js">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
       </provider>
@@ -535,16 +504,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameScene.js">
+    <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/layers_scenes_transitions_nodes/CCScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="54" selection-start="6526" selection-end="6526" vertical-scroll-proportion="0.0">
+        <state line="7" column="18" selection-start="239" selection-end="240" vertical-scroll-proportion="-4.0384617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/../../../2.1.4/cocos2d/base_nodes/CCNode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+        <state line="909" column="4" selection-start="26722" selection-end="26750" vertical-scroll-proportion="-5.8461537">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tower.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="46" selection-start="6909" selection-end="6909" vertical-scroll-proportion="1.1356467">
           <folding />
         </state>
       </provider>
